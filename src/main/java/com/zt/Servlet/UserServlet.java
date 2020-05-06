@@ -12,7 +12,6 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.util.List;
-
 /**
  * @author scj
  * @create 2020-04-15 16:29
@@ -42,6 +41,7 @@ public class UserServlet extends HttpServlet {
           }
        }
     }
+
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         System.out.println("aaa");
